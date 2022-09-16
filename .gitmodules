@@ -1,0 +1,3 @@
+[submodule "Fantasy-Football-Models"]
+	path = Fantasy-Football-Models
+	url = git@github.com:jsoslow2/Fantasy-Football-Models.git

@@ -1,0 +1,17 @@
+[GLOBAL]
+pants_version = "2.13.0"
+use_deprecated_directory_cli_args_semantics = false
+backend_packages = [
+  "pants.backend.python",
+  "pants.backend.python.lint.pylint",
+]
+
+[python]
+tailor_pex_binary_targets = false
+interpreter_constraints = ["CPython==3.9.*"]
+
+[source]
+root_patterns = ["src/", "lib/"]
+
+[anonymous-telemetry]
+enabled = false
