@@ -10,6 +10,12 @@ backend_packages = [
 tailor_pex_binary_targets = false
 interpreter_constraints = ["CPython==3.10.*"]
 
+[python-bootstrap]
+search_path = [
+    # This will use all interpreters in `$(pyenv root)/versions`.
+    "<PYENV>"
+]
+
 [source]
 root_patterns = ["src/", "lib/"]
 
