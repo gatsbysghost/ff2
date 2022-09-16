@@ -8,7 +8,7 @@ backend_packages = [
 
 [python]
 tailor_pex_binary_targets = false
-interpreter_constraints = ["CPython==3.9.*"]
+interpreter_constraints = ["CPython==3.10.*"]
 
 [source]
 root_patterns = ["src/", "lib/"]
